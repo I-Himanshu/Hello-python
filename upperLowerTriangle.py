@@ -1,6 +1,5 @@
 """Create A Upper & Lower Triangle as per your requirement"""
 row=input("Enter Number Of Rows >>> ") or 4
-
 row=int(row)
 
 cond=bool(int(input("Enter 1 or 2 for Lower or Upper ∆ >> ")));
@@ -24,3 +23,5 @@ else:
     print("*"*start)
 
     start=start+1
+
+print("Program End")
